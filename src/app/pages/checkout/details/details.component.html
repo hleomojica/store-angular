@@ -20,7 +20,7 @@
     </table>
     <div class="container__total">
         <p class="total">
-            <strong>Total: <span>{{total$}}</span></strong>
+            <strong>Total: <span>{{total$ | async | currency }}</span></strong>
         </p>
     </div>
 </div>
